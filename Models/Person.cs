@@ -13,7 +13,8 @@ namespace POOCSharp.Models
 
          public string Email { get; set; }
 
-        public void IntroduceYourself()
+        //virtual permite o método a ser sobrescrito
+        public virtual void IntroduceYourself()
         {
             Console.WriteLine($"My name is {Name} and I have {Age} years");
         }
