@@ -16,11 +16,15 @@ a1.Name = "Gustavo";
 a1.Email = "gustavo@gustavo.com";
 a1.Age = 24;
 a1.Score = 10;
-a1.IntroduceYourself();
+// a1.IntroduceYourself();
 
 Teacher t1 = new Teacher();
 t1.Name = "Leonardo";
 t1.Email = "leonardo@leonardo.com";
 t1.Age = 45;
 t1.Salary = 8750;
-t1.IntroduceYourself();
+// t1.IntroduceYourself();
+
+Checking checkingAccount = new Checking();
+checkingAccount.Credit(500);
+checkingAccount.ShowBalance();
