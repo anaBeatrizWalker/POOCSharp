@@ -8,6 +8,16 @@ namespace POOCSharp.Models
     //Herança
     public class Teacher : Person
     {
+        //Construtores por herança
+        public Teacher()
+        {
+            
+        }
+        public Teacher(string name) : base(name) //base passa o nome para a classe pai
+        {
+            
+        }
+
         public decimal Salary { get; set; }
 
         //Polimorfismo em tempo de execução

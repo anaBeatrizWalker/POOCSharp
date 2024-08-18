@@ -8,6 +8,15 @@ namespace POOCSharp.Models
     //Herança
     public class Student : Person
     {
+        //Construtores por herança
+        public Student()
+        {
+            
+        }
+        public Student(string name) : base(name)
+        {
+            
+        }
         public double Score { get; set; }
 
         //Polimorfismo em tempo de execução
