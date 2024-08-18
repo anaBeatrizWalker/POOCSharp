@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace POOCSharp.Models
 {
-    //Herança
-    public class Teacher : Person
+    //Herança e Classe Selada
+    public sealed class Teacher : Person
     {
         //Construtores por herança
         public Teacher()
