@@ -5,9 +5,12 @@ using System.Threading.Tasks;
 
 namespace POOCSharp.Models
 {
-    //ERROR: 'Principal': cannot derive from sealed type 'Teacher'
-    // public class Principal : Teacher
-    // {
-        
-    // }
+    public class Principal : Teacher
+    {
+        //ERROR: 'Principal.IntroduceYourself()': cannot override inherited member 'Teacher.IntroduceYourself()' because it is sealed
+        // public sealed override void IntroduceYourself()
+        // {
+        //     Console.WriteLine($"My name is {Name}, I have {Age} years and I'm a principal");
+        // }
+    }
 }
